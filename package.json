@@ -1,0 +1,21 @@
+{
+  "name": "bimaps-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bimaps/bimaps-docs.git",
+  "author": "Thomas Hachler",
+  "license": "AGPL",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
+    "gh-pages": "^3.1.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.0.2"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "typedoc": "file:typedoc"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "out": "../_site/api",
+    "json": "../_site/api/docs.json",
+    "name": "BIMaps.io Documentation",
+    "excludeExternals": true,
+    "includeVersion": true,
+    "entryPoints": ["src/index.ts"]
+}
