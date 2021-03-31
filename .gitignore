@@ -1,3 +1,6 @@
-_site
-wwww
 node_modules
+
+_site
+www
+www.zip
+build-docs.sh
