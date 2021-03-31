@@ -34,3 +34,43 @@ npm run build
 node bin/typedoc --options ../typedoc.json
 ```
 
+
+## Creating documentation for an module
+
+### Configure files in your module.
+
+1. package.json : add package (min. TS 3.9)
+    ````
+    "typescript": "^3.9.0",
+    "typedoc": "^0.20.34",
+    ````
+
+2. .gitignore
+    ````
+    # Documentation
+    docs
+    ````
+
+3. typedoc.json
+    ````
+    {
+        "out": "docs/",
+        "json": "docs/docs.json",
+        "name": "BIMaps.io Documentation",
+        "excludeExternals": true,
+        "includeVersion": true,
+        "entryPoints": ["src/index.ts"]
+    }
+    ````
+
+Full documentation : [Typedoc](https://typedoc.org/guides/installation/)
+
+<br>
+<br>
+<br>
+
+### Build you Docs
+
+<br>
+
+1. Run `npx typedoc`
