@@ -62,6 +62,10 @@ node bin/typedoc --options ../typedoc.json
         "entryPoints": ["src/index.ts"]
     }
     ````
+4. tsconfig.json > compilerOptions (only for Aurelia projects)
+    ```
+    "outDir": "./dist",
+    ````
 
 Full documentation : [Typedoc](https://typedoc.org/guides/installation/)
 
