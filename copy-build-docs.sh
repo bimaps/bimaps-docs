@@ -8,13 +8,10 @@ rm -rf _site
 mkdir _site
 npm run build
 
-# API Docs
-# node typedoc/scripts/generate_options_schema.js _site/schema.json
 
 ## Application cliente
-
-# cd ../bimetat-app/
-# npx typedoc
+cd ../bimetat-app/
+npx typedoc
 cd ../aurelia-three/
 npx typedoc
 cd ../aurelia-bcf/
