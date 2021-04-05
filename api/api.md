@@ -5,15 +5,11 @@ title: "Modules documentations"
 menuOrder: 1
 ---
 
-# Index
+# Table des matières API
 
-## Application cliente
-1. [bimaps-app](./bimaps-app)
-2. [aurelia-three](./aurelia-three)
-3. [aurelia-bcf](./aurelia-bcf)
-4. [aurelia-resources](./aurelia-resources)
-5. [aurelia-deco](./aurelia-deco)
-
+## API REST
+1. [REST API](./restapi)
+2. [BCF REST API](./bcfrestapi)
 
 ## Serveur API
 1. [bimaps-api](./bimaps-api)
@@ -23,4 +19,11 @@ menuOrder: 1
 5. [ifc2json-wrapper](./ifc2json-wrapper)
 6. [deco-api](./deco-api)
 
+
+## Application cliente
+1. [bimaps-app](./bimaps-app)
+2. [aurelia-three](./aurelia-three)
+3. [aurelia-bcf](./aurelia-bcf)
+4. [aurelia-resources](./aurelia-resources)
+5. [aurelia-deco](./aurelia-deco)
 

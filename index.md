@@ -18,9 +18,10 @@ La page API décrit l'entier des modules et API disponible pour le développeur 
 
 
 
-## Index
+## Table des matières
 
 1. [Guide d'installation](./guides/installation)
+2. [Près requis](./guides/requirements)
+3. [Guide utilisateur](./guides/app-viewer)
+4. [Guide manager](./guides/app-viewer-admin)
 2. [Guide de développement](./guides/development)
-3. [Guide utilisateur](./guides/user)
-4. [Guide manager](./guides/manager)
