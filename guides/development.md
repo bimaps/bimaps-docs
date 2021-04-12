@@ -30,3 +30,50 @@ Configure all environment files :
 - Client App : `config/environment.json`
 
 
+<br>
+<br>
+<br>
+
+## Script de déployement
+
+Préparation de l'envrionnement pour API (adapter les repos)
+```
+cd ..
+git clone https://github.com/bimaps/bimaps-api.git
+git clone https://github.com/bimaps/deco-bcf.git
+git clone https://github.com/bimaps/deco-three.git
+git clone https://github.com/bimaps/ifc2json.git
+git clone https://github.com/platform5/deco-api.git
+cd deco-three
+npm i
+npm run tsc
+cd ../deco-bcf
+npm i
+npm run tsc
+cd ../deco-three
+npm i
+npm run tsc
+cd ../bimaps-api
+npm i
+npm run tsc
+cd ../bimaps-api
+npm link ../deco-api ../deco-bcf ../deco-three
+cd ../deco-bcf
+npm link ../deco-api
+cd ../deco-three
+npm link ../deco-api
+```
+
+Préparation de l'envrionnement pour le client
+```
+git clone https://github.com/bimaps/bimaps-app
+git clone https://github.com/bimaps/aurelia-bcf
+git clone https://github.com/bimaps/aurelia-three
+cd bimaps-app
+npm install
+cd ../aurelia-bcf
+npm install
+cd ../aurelia-three
+npm install
+```
+
