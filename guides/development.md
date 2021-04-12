@@ -56,8 +56,9 @@ npm run tsc
 cd ../bimaps-api
 npm i
 npm run tsc
-cd ../bimaps-api
-npm link ../deco-api ../deco-bcf ../deco-three
+npm link ../deco-api 
+npm link ../deco-bcf
+npm link ../deco-three
 cd ../deco-bcf
 npm link ../deco-api
 cd ../deco-three
