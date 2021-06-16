@@ -34,7 +34,8 @@ cp -r ../aurelia-bcf/docs/* _site/api/aurelia-bcf
 cp -r ../aurelia-resources/docs/* _site/api/aurelia-resources
 cp -r ../aurelia-deco/docs/* _site/api/aurelia-deco
 
-
+## Copy images
+cp ../aurelia-three/images/* _site/images
 
 ## Serveur API
 # cd ../bimetat-api/
